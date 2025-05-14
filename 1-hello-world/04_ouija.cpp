@@ -1,15 +1,20 @@
-// Ouija Board 👻
-// Codédex
 
-#include <iostream> 
+// The Ouija Board 👻
+#include <iostream>
+using namespace std;
+int main(){
+ cout << "-------------------------\n";
+ cout << "|      x YES   NO x      |\n";
+ cout << "|                        |\n";
+ cout << "|      ABCDEFGHIJKLM     |\n";
+ cout << "|      NOPQRSTUVWXYZ     |\n";
+ cout << "|                        |\n";
+ cout << "|                        |\n";
+ cout << "|                        |\n";
+ cout << "|       1234567890       |\n";
+ cout << "-------------------------\n";
 
-int main() {
-  std::cout << "-----------------------------------\n";
-  std::cout << "|          x YES   NO  x          |\n";
-  std::cout << "|                                 |\n";
-  std::cout << "|         ABCDEFGHIJKLM           |\n";
-  std::cout << "|         NOPQRSTUVWXYZ           |\n";
-  std::cout << "|                                 |\n";
-  std::cout << "|           1234567890            |\n";
-  std::cout << "-----------------------------------\n";
+
+
 }
+
